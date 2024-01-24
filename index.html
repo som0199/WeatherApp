@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body class="bg-dark text-light">
+
+    <nav class="navbar  p-2 bg-light bg-gradient " style="--bs-bg-opacity: 0.4">
+        <div class="container-fluid">
+          <a class="navbar-brand text-dark" href="#">
+            <img src="4571485.png" alt="Logo" width="35" height="30" class="d-inline-block align-text-top">
+            Weather App
+          </a>
+        </div>
+      </nav>
+      <marquee>
+        <h3 class="h1"></h3>
+      </marquee>
+
+    <div class="container p-4 rounded-0">
+        <form class="my-3">
+            <input type="text" id="" class="form-control rounded-0 bg-dark text-light" placeholder="Enter the city" style="--bs-bg-opacity: 0.2; border: hidden;"  required>
+            <button class="btn btn-success rounded-0 my-2">Search</button>
+        </form>
+        <div class="card my-2 p-4">
+          <div class="d-flex align-item-center justify-content-between">
+            <span>
+              <h1 class="display-1"></h1>
+              <h2 class="display-3"></h2>
+            </span>
+            <span>
+                <img id="img1"  alt="" />
+                <p class="display-6"></p>
+            </span>
+          </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
